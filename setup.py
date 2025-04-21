@@ -7,7 +7,6 @@ from setuptools import find_packages, setup
 from wheel.bdist_wheel import bdist_wheel as _bdist_wheel
 import sys
 ##yuepeng branch
-## new branch
 
 _build_mode = os.getenv("OPENRLHF_BUILD_MODE", "")
 
